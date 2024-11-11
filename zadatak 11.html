@@ -1,0 +1,44 @@
+<!DOCTYPE HTML>
+<html lang="hr">
+	<head>
+		<title>Zadatak 11</title>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+		<meta name="description" content="">
+		<meta name="keywords" content="">
+		<meta name="author" content="Dea Šumić">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<style>
+			body { margin: 1em; }
+			form { width: 300px; }
+		</style>
+	</head>
+	<body>
+		<form action="adduser.php" method="post">
+		    <div class="form-group">
+				<label for="firstname">Ime: </label>
+				<input type="text" class="form-control" id="firstname" name="firstname">
+			</div>
+			<div class="form-group">
+				<label for="lastname">Prezime: </label>
+				<input type="text" class="form-control" id="lastname" name="lastname">
+			</div>
+			<div class="form-group">
+				<label for="email">E-mail: </label>
+				<input type="email" class="form-control" id="email" name="email"><br>
+			</div>
+            <div class="form-group">
+				<label for="Broj telefona">Broj telefona: </label>
+				<input type="text" class="form-control" id="Broj telefona" name="Broj telefona"><br>
+			</div>
+			<div class="form-group">
+				<input type="submit" class="btn btn-default" value="Pošalji"> 
+				<input type="reset" class="btn btn-default" value="Poništi">
+			</div>
+		</form>
+
+	</body>
+</html>
